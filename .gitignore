@@ -1,2 +1,6 @@
 //ignore pyc
 *.pyc
+//ignore log file
+*.log
+//ignore ide configure
+/.idea
