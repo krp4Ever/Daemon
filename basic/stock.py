@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import tushare as ts
-from pymongo import MongoClient 
+from .db.mongo import connect_mongo
 import json
 
 def getStockBasics():
